@@ -23,7 +23,7 @@ var headers = {
 
 // Configure the POST request
 var options1 = {
-    url: 'http://samwize.com',
+    url: 'http://localhost:8080/api',
     method: 'POST',
     headers: headers,
     form: {'key1': 'xxx', 'key2': 'yyy'}
@@ -31,7 +31,7 @@ var options1 = {
 
 // Configure the GET request
 var options2 = {
-    url: 'http://samwize.com',
+    url: 'http://localhost:8080/api',
     method: 'GET',
     headers: headers,
     qs: {'key1': 'xxx', 'key2': 'yyy'}
@@ -39,7 +39,7 @@ var options2 = {
 
 // Configure the PUT request
 var options3 = {
-    url: 'http://samwize.com',
+    url: 'http://localhost:8080/api',
     method: 'PUT',
     headers: headers,
     qs: {'key1': 'xxx', 'key2': 'yyy'}
@@ -47,7 +47,7 @@ var options3 = {
 
 // Configure the DELETE request
 var options4 = {
-    url: 'http://samwize.com',
+    url: 'http://localhost:8080/api',
     method: 'DELETE',
     headers: headers,
     qs: {'key1': 'xxx', 'key2': 'yyy'}
